@@ -1,0 +1,28 @@
+.todo-task:hover {
+  transition: 0.2s;
+  -webkit-box-shadow: 0px 0px 15px 5px rgb(75, 91, 185);
+  box-shadow: 0px 0px 15px 5px rgb(75, 91, 185);
+}
+
+.todo-task {
+  transition: 0.2s;
+  color: black;
+}
+
+.todo-task :disabled {
+  transition: 0.2s;
+  color: black;
+}
+
+.todo-task .MuiInputBase-root.Mui-disabled {
+  transition: 0.2s;
+  background-color: transparent;
+  -webkit-box-shadow: 2px 2px 2px 2px rgb(97, 97, 100);
+  box-shadow: 2px 2px 2px 2px rgb(97, 97, 100);
+}
+
+.todo-task .MuiInputBase-root {
+  transition: 0.2s;
+  -webkit-box-shadow: 0px 0px 15px 5px rgb(185, 22, 84);
+  box-shadow: 0px 0px 15px 5px rgb(185, 22, 84);
+}
