@@ -8,7 +8,7 @@ import "./App.css";
 
 function App() {
   //refs
-  const ref = useRef();
+  // const ref = useRef();
   //Methods And State Stores
   //States :
   const [addTodoText, setAddTodoText] = useState(0);

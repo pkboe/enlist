@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const ActionButtons = (props) => {
-  const [EditState, setEditState] = useState();
+  // const [EditState, setEditState] = useState();
 
   const handleEditClick = () => {
     if (IconType === "Edit") setIconType("Done");
