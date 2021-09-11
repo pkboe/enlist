@@ -21,7 +21,8 @@ pipeline{
                 stage("Build"){
             steps{
                 echo "========executing Build ========"
-                sh "npm run compile"
+                sh """npm install
+                npm run compile"""
             }
             post{
                 always{
