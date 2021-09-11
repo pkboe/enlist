@@ -24,12 +24,9 @@ export default function TodoTask(props) {
   const classes = useStyles();
   const [tempValue, setTempValue] = useState(props.value);
 
-  useEffect(
-    (props) => {
-      props.editClickCommit(props.todo.id, props.value);
-    },
-    [tempValue]
-  );
+  useEffect(() => {
+    props.editClickCommit(props.todo.id, props.value);
+  }, [tempValue, props]);
 
   return (
     <Fade in={true}>
